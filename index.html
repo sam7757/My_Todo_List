@@ -1,0 +1,46 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>todo list</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="data:,">
+    </head>
+    <body>
+         <style>
+    body {
+        background-image: url('images/Bright To-Do List Planning Desk.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        
+        background-color: rgba(255, 255, 255, 0.60);
+        background-blend-mode: overlay;
+    }
+</style>
+           
+
+
+            <div id="main">
+        <center>
+        <h1 class="h1"><b><i>TODO LIST</i></b></h1>
+        </center>
+        <div id="input-section">
+            <input type="text" name="" id="todo-inp" class="input1">
+            <button id="addBtn"  onClick="addTodo()" class="button1">Add</button>
+            <button id="delAllBtn"  onClick="deleteAllTodos()" class="button1">Delete all</button>
+            
+        </div>
+
+        <div class="todo-lists"></div>
+
+
+    </div>
+
+        <script type="module" src="app.js"></script>
+    </body>
+    </html>
+</html>
